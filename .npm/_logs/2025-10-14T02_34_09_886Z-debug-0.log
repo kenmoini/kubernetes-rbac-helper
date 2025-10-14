@@ -1,0 +1,300 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspace/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm i @patternfly/react-core @patternfly/react-icons @patternfly/react-code-editor js-yaml monaco-editor react-router-dom
+7 verbose argv "i" "@patternfly/react-core" "@patternfly/react-icons" "@patternfly/react-code-editor" "js-yaml" "monaco-editor" "react-router-dom"
+8 verbose logfile logs-max:10 dir:/workspace/.npm/_logs/2025-10-14T02_34_09_886Z-
+9 verbose logfile /workspace/.npm/_logs/2025-10-14T02_34_09_886Z-debug-0.log
+10 silly packumentCache heap:1047789568 maxSize:261947392 maxEntrySize:130973696
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @patternfly/react-core@*
+14 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-core cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@patternfly%2freact-core 343ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-core set size:undefined disposed:false
+17 silly fetch manifest react@^17 || ^18 || ^19
+18 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/react 154ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+21 silly fetch manifest react-dom@^17 || ^18 || ^19
+22 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/react-dom 144ms (cache miss)
+24 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+25 silly fetch manifest @patternfly/react-icons@*
+26 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-icons cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/@patternfly%2freact-icons 206ms (cache miss)
+28 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-icons set size:undefined disposed:false
+29 silly fetch manifest @patternfly/react-code-editor@*
+30 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-code-editor cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/@patternfly%2freact-code-editor 342ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-code-editor set size:undefined disposed:false
+33 silly fetch manifest js-yaml@*
+34 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/js-yaml 39ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:undefined disposed:false
+37 silly fetch manifest monaco-editor@*
+38 silly packumentCache full:https://registry.npmjs.org/monaco-editor cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/monaco-editor 130ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/monaco-editor set size:undefined disposed:false
+41 silly fetch manifest react-router-dom@*
+42 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/react-router-dom 113ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/react-router-dom set size:undefined disposed:false
+45 silly fetch manifest react@>=18
+46 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/react 11ms (cache hit)
+48 silly packumentCache full:https://registry.npmjs.org/react set size:6157449 disposed:false
+49 silly fetch manifest react-dom@>=18
+50 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/react-dom 12ms (cache hit)
+52 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8023405 disposed:false
+53 silly placeDep ROOT @patternfly/react-code-editor@6.3.1 OK for:  want: *
+54 silly placeDep ROOT react@19.2.0 OK for: @patternfly/react-code-editor@6.3.1 want: ^17 || ^18 || ^19
+55 silly placeDep ROOT react-dom@19.2.0 OK for: @patternfly/react-code-editor@6.3.1 want: ^17 || ^18 || ^19
+56 silly placeDep ROOT @patternfly/react-core@6.3.1 OK for:  want: *
+57 silly placeDep ROOT @patternfly/react-icons@6.3.1 OK for:  want: *
+58 silly placeDep ROOT js-yaml@4.1.0 OK for:  want: *
+59 silly placeDep ROOT monaco-editor@0.54.0 OK for:  want: *
+60 silly placeDep ROOT react-router-dom@7.9.4 OK for:  want: *
+61 silly fetch manifest tslib@^2.8.1
+62 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+63 silly fetch manifest react-dropzone@14.3.5
+64 silly packumentCache full:https://registry.npmjs.org/react-dropzone cache-miss
+65 silly fetch manifest @monaco-editor/react@^4.6.0
+66 silly packumentCache full:https://registry.npmjs.org/@monaco-editor%2freact cache-miss
+67 silly fetch manifest @patternfly/react-core@^6.3.1
+68 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-core cache-miss
+69 silly fetch manifest @patternfly/react-icons@^6.3.1
+70 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-icons cache-miss
+71 silly fetch manifest @patternfly/react-styles@^6.3.1
+72 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-styles cache-miss
+73 silly fetch manifest scheduler@^0.27.0
+74 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+75 http fetch GET 200 https://registry.npmjs.org/@patternfly%2freact-icons 14ms (cache hit)
+76 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-icons set size:3261991 disposed:false
+77 silly fetch manifest tslib@^2.8.1
+78 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/@patternfly%2freact-core 28ms (cache hit)
+80 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-core set size:9934390 disposed:false
+81 silly fetch manifest focus-trap@7.6.4
+82 silly packumentCache full:https://registry.npmjs.org/focus-trap cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/tslib 71ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+85 silly fetch manifest react-dropzone@^14.3.5
+86 silly packumentCache full:https://registry.npmjs.org/react-dropzone cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/tslib 108ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+89 silly fetch manifest @patternfly/react-styles@^6.3.1
+90 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-styles cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/react-dropzone 101ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/react-dropzone set size:undefined disposed:false
+93 silly fetch manifest @patternfly/react-tokens@^6.3.1
+94 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-tokens cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/focus-trap 119ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/focus-trap set size:undefined disposed:false
+97 silly fetch manifest argparse@^2.0.1
+98 silly packumentCache full:https://registry.npmjs.org/argparse cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/react-dropzone 203ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/react-dropzone set size:undefined disposed:false
+101 silly fetch manifest marked@14.0.0
+102 silly packumentCache full:https://registry.npmjs.org/marked cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/scheduler 243ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+105 silly fetch manifest dompurify@3.1.7
+106 silly packumentCache full:https://registry.npmjs.org/dompurify cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/argparse 88ms (cache miss)
+108 silly packumentCache full:https://registry.npmjs.org/argparse set size:undefined disposed:false
+109 silly fetch manifest react-router@7.9.4
+110 silly packumentCache full:https://registry.npmjs.org/react-router cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/@monaco-editor%2freact 281ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/@monaco-editor%2freact set size:undefined disposed:false
+113 http fetch GET 200 https://registry.npmjs.org/marked 80ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/marked set size:undefined disposed:false
+115 http fetch GET 200 https://registry.npmjs.org/dompurify 104ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/dompurify set size:undefined disposed:false
+117 http fetch GET 200 https://registry.npmjs.org/react-router 102ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/react-router set size:undefined disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/@patternfly%2freact-styles 847ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-styles set size:undefined disposed:false
+121 http fetch GET 200 https://registry.npmjs.org/@patternfly%2freact-styles 731ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-styles set size:undefined disposed:false
+123 http fetch GET 200 https://registry.npmjs.org/@patternfly%2freact-tokens 779ms (cache miss)
+124 silly packumentCache full:https://registry.npmjs.org/@patternfly%2freact-tokens set size:undefined disposed:false
+125 silly fetch manifest monaco-editor@>= 0.25.0 < 1
+126 silly packumentCache full:https://registry.npmjs.org/monaco-editor cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/monaco-editor 7ms (cache hit)
+128 silly packumentCache full:https://registry.npmjs.org/monaco-editor set size:3879276 disposed:false
+129 silly placeDep ROOT @monaco-editor/react@4.7.0 OK for: @patternfly/react-code-editor@6.3.1 want: ^4.6.0
+130 silly placeDep ROOT @patternfly/react-styles@6.3.1 OK for: @patternfly/react-code-editor@6.3.1 want: ^6.3.1
+131 silly placeDep ROOT react-dropzone@14.3.5 OK for: @patternfly/react-code-editor@6.3.1 want: 14.3.5
+132 silly placeDep ROOT tslib@2.8.1 OK for: @patternfly/react-code-editor@6.3.1 want: ^2.8.1
+133 silly fetch manifest @monaco-editor/loader@^1.5.0
+134 silly packumentCache full:https://registry.npmjs.org/@monaco-editor%2floader cache-miss
+135 silly fetch manifest prop-types@^15.8.1
+136 silly packumentCache full:https://registry.npmjs.org/prop-types cache-miss
+137 silly fetch manifest attr-accept@^2.2.4
+138 silly packumentCache full:https://registry.npmjs.org/attr-accept cache-miss
+139 silly fetch manifest file-selector@^2.1.0
+140 silly packumentCache full:https://registry.npmjs.org/file-selector cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/prop-types 53ms (cache miss)
+142 silly packumentCache full:https://registry.npmjs.org/prop-types set size:undefined disposed:false
+143 http fetch GET 200 https://registry.npmjs.org/file-selector 82ms (cache miss)
+144 silly packumentCache full:https://registry.npmjs.org/file-selector set size:undefined disposed:false
+145 http fetch GET 200 https://registry.npmjs.org/attr-accept 83ms (cache miss)
+146 silly packumentCache full:https://registry.npmjs.org/attr-accept set size:undefined disposed:false
+147 http fetch GET 200 https://registry.npmjs.org/@monaco-editor%2floader 152ms (cache miss)
+148 silly packumentCache full:https://registry.npmjs.org/@monaco-editor%2floader set size:undefined disposed:false
+149 silly placeDep ROOT @monaco-editor/loader@1.6.0 OK for: @monaco-editor/react@4.7.0 want: ^1.5.0
+150 silly fetch manifest state-local@^1.0.6
+151 silly packumentCache full:https://registry.npmjs.org/state-local cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/state-local 354ms (cache miss)
+153 silly packumentCache full:https://registry.npmjs.org/state-local set size:undefined disposed:false
+154 silly placeDep ROOT state-local@1.0.7 OK for: @monaco-editor/loader@1.6.0 want: ^1.0.6
+155 silly placeDep ROOT @patternfly/react-tokens@6.3.1 OK for: @patternfly/react-core@6.3.1 want: ^6.3.1
+156 silly placeDep ROOT focus-trap@7.6.4 OK for: @patternfly/react-core@6.3.1 want: 7.6.4
+157 silly fetch manifest tabbable@^6.2.0
+158 silly packumentCache full:https://registry.npmjs.org/tabbable cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/tabbable 56ms (cache miss)
+160 silly packumentCache full:https://registry.npmjs.org/tabbable set size:undefined disposed:false
+161 silly placeDep ROOT tabbable@6.2.0 OK for: focus-trap@7.6.4 want: ^6.2.0
+162 silly placeDep ROOT argparse@2.0.1 OK for: js-yaml@4.1.0 want: ^2.0.1
+163 silly placeDep ROOT dompurify@3.1.7 OK for: monaco-editor@0.54.0 want: 3.1.7
+164 silly placeDep ROOT marked@14.0.0 OK for: monaco-editor@0.54.0 want: 14.0.0
+165 silly placeDep ROOT scheduler@0.27.0 OK for: react-dom@19.2.0 want: ^0.27.0
+166 silly placeDep ROOT attr-accept@2.2.5 OK for: react-dropzone@14.3.5 want: ^2.2.4
+167 silly placeDep ROOT file-selector@2.1.2 OK for: react-dropzone@14.3.5 want: ^2.1.0
+168 silly placeDep ROOT prop-types@15.8.1 OK for: react-dropzone@14.3.5 want: ^15.8.1
+169 silly fetch manifest loose-envify@^1.4.0
+170 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+171 silly fetch manifest object-assign@^4.1.1
+172 silly packumentCache full:https://registry.npmjs.org/object-assign cache-miss
+173 silly fetch manifest react-is@^16.13.1
+174 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/object-assign 51ms (cache miss)
+176 silly packumentCache full:https://registry.npmjs.org/object-assign set size:undefined disposed:false
+177 http fetch GET 200 https://registry.npmjs.org/loose-envify 55ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+179 http fetch GET 200 https://registry.npmjs.org/react-is 120ms (cache miss)
+180 silly packumentCache full:https://registry.npmjs.org/react-is set size:undefined disposed:false
+181 silly placeDep ROOT loose-envify@1.4.0 OK for: prop-types@15.8.1 want: ^1.4.0
+182 silly placeDep ROOT object-assign@4.1.1 OK for: prop-types@15.8.1 want: ^4.1.1
+183 silly placeDep ROOT react-is@16.13.1 OK for: prop-types@15.8.1 want: ^16.13.1
+184 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+185 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/js-tokens 42ms (cache miss)
+187 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:undefined disposed:false
+188 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+189 silly placeDep ROOT react-router@7.9.4 OK for: react-router-dom@7.9.4 want: 7.9.4
+190 silly fetch manifest cookie@^1.0.1
+191 silly packumentCache full:https://registry.npmjs.org/cookie cache-miss
+192 silly fetch manifest set-cookie-parser@^2.6.0
+193 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/cookie 54ms (cache miss)
+195 silly packumentCache full:https://registry.npmjs.org/cookie set size:undefined disposed:false
+196 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser 68ms (cache miss)
+197 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser set size:undefined disposed:false
+198 silly placeDep ROOT cookie@1.0.2 OK for: react-router@7.9.4 want: ^1.0.1
+199 silly placeDep ROOT set-cookie-parser@2.7.1 OK for: react-router@7.9.4 want: ^2.6.0
+200 silly reify moves {}
+201 silly tarball no local data for set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.1.tgz. Extracting by manifest.
+202 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-1.0.2.tgz. Extracting by manifest.
+203 silly tarball no local data for react-is@https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz. Extracting by manifest.
+204 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+205 silly tarball no local data for file-selector@https://registry.npmjs.org/file-selector/-/file-selector-2.1.2.tgz. Extracting by manifest.
+206 silly tarball no local data for prop-types@https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz. Extracting by manifest.
+207 silly tarball no local data for attr-accept@https://registry.npmjs.org/attr-accept/-/attr-accept-2.2.5.tgz. Extracting by manifest.
+208 silly tarball no local data for marked@https://registry.npmjs.org/marked/-/marked-14.0.0.tgz. Extracting by manifest.
+209 silly tarball no local data for dompurify@https://registry.npmjs.org/dompurify/-/dompurify-3.1.7.tgz. Extracting by manifest.
+210 silly tarball no local data for argparse@https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz. Extracting by manifest.
+211 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+212 silly tarball no local data for tabbable@https://registry.npmjs.org/tabbable/-/tabbable-6.2.0.tgz. Extracting by manifest.
+213 silly tarball no local data for focus-trap@https://registry.npmjs.org/focus-trap/-/focus-trap-7.6.4.tgz. Extracting by manifest.
+214 silly tarball no local data for @patternfly/react-tokens@https://registry.npmjs.org/@patternfly/react-tokens/-/react-tokens-6.3.1.tgz. Extracting by manifest.
+215 silly tarball no local data for @monaco-editor/loader@https://registry.npmjs.org/@monaco-editor/loader/-/loader-1.6.0.tgz. Extracting by manifest.
+216 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+217 silly tarball no local data for state-local@https://registry.npmjs.org/state-local/-/state-local-1.0.7.tgz. Extracting by manifest.
+218 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+219 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-7.9.4.tgz. Extracting by manifest.
+220 silly tarball no local data for @patternfly/react-styles@https://registry.npmjs.org/@patternfly/react-styles/-/react-styles-6.3.1.tgz. Extracting by manifest.
+221 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.9.4.tgz. Extracting by manifest.
+222 silly tarball no local data for @monaco-editor/react@https://registry.npmjs.org/@monaco-editor/react/-/react-4.7.0.tgz. Extracting by manifest.
+223 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz. Extracting by manifest.
+224 silly tarball no local data for @patternfly/react-icons@https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-6.3.1.tgz. Extracting by manifest.
+225 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+226 silly tarball no local data for @patternfly/react-core@https://registry.npmjs.org/@patternfly/react-core/-/react-core-6.3.1.tgz. Extracting by manifest.
+227 silly tarball no local data for react-dropzone@https://registry.npmjs.org/react-dropzone/-/react-dropzone-14.3.5.tgz. Extracting by manifest.
+228 silly tarball no local data for @patternfly/react-code-editor@https://registry.npmjs.org/@patternfly/react-code-editor/-/react-code-editor-6.3.1.tgz. Extracting by manifest.
+229 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.0.tgz. Extracting by manifest.
+230 silly tarball no local data for monaco-editor@https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.54.0.tgz. Extracting by manifest.
+231 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz. Extracting by manifest.
+232 http fetch GET 200 https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz 76ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-1.0.2.tgz 77ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/attr-accept/-/attr-accept-2.2.5.tgz 75ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 77ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.1.tgz 80ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz 79ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 82ms (cache miss)
+239 http fetch GET 200 https://registry.npmjs.org/state-local/-/state-local-1.0.7.tgz 89ms (cache miss)
+240 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 96ms (cache miss)
+241 http fetch GET 200 https://registry.npmjs.org/file-selector/-/file-selector-2.1.2.tgz 103ms (cache miss)
+242 http fetch GET 200 https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz 108ms (cache miss)
+243 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.9.4.tgz 121ms (cache miss)
+244 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 127ms (cache miss)
+245 http fetch GET 200 https://registry.npmjs.org/@monaco-editor/loader/-/loader-1.6.0.tgz 127ms (cache miss)
+246 http fetch GET 200 https://registry.npmjs.org/tabbable/-/tabbable-6.2.0.tgz 156ms (cache miss)
+247 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz 160ms (cache miss)
+248 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 180ms (cache miss)
+249 http fetch GET 200 https://registry.npmjs.org/@monaco-editor/react/-/react-4.7.0.tgz 195ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-7.9.4.tgz 212ms (cache miss)
+251 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.0.tgz 219ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/focus-trap/-/focus-trap-7.6.4.tgz 267ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/react-dropzone/-/react-dropzone-14.3.5.tgz 300ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/marked/-/marked-14.0.0.tgz 339ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/dompurify/-/dompurify-3.1.7.tgz 365ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/@patternfly/react-code-editor/-/react-code-editor-6.3.1.tgz 405ms (cache miss)
+257 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz 595ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/@patternfly/react-styles/-/react-styles-6.3.1.tgz 970ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/@patternfly/react-core/-/react-core-6.3.1.tgz 5621ms (cache miss)
+260 http fetch GET 200 https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.54.0.tgz 5856ms (cache miss)
+261 http fetch GET 200 https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-6.3.1.tgz 8071ms (cache miss)
+262 http fetch GET 200 https://registry.npmjs.org/@patternfly/react-tokens/-/react-tokens-6.3.1.tgz 9585ms (cache miss)
+263 silly ADD node_modules/set-cookie-parser
+264 silly ADD node_modules/cookie
+265 silly ADD node_modules/react-router
+266 silly ADD node_modules/js-tokens
+267 silly ADD node_modules/react-is
+268 silly ADD node_modules/object-assign
+269 silly ADD node_modules/loose-envify
+270 silly ADD node_modules/prop-types
+271 silly ADD node_modules/file-selector
+272 silly ADD node_modules/attr-accept
+273 silly ADD node_modules/scheduler
+274 silly ADD node_modules/marked
+275 silly ADD node_modules/dompurify
+276 silly ADD node_modules/argparse
+277 silly ADD node_modules/tabbable
+278 silly ADD node_modules/focus-trap
+279 silly ADD node_modules/@patternfly/react-tokens
+280 silly ADD node_modules/state-local
+281 silly ADD node_modules/@monaco-editor/loader
+282 silly ADD node_modules/tslib
+283 silly ADD node_modules/react-dropzone
+284 silly ADD node_modules/@patternfly/react-styles
+285 silly ADD node_modules/@monaco-editor/react
+286 silly ADD node_modules/react-router-dom
+287 silly ADD node_modules/monaco-editor
+288 silly ADD node_modules/js-yaml
+289 silly ADD node_modules/@patternfly/react-icons
+290 silly ADD node_modules/@patternfly/react-core
+291 silly ADD node_modules/react-dom
+292 silly ADD node_modules/react
+293 silly ADD node_modules/@patternfly/react-code-editor
+294 verbose cwd /workspace
+295 verbose os Linux 6.8.8-300.fc40.aarch64
+296 verbose node v20.19.5
+297 verbose npm  v10.8.2
+298 verbose exit 0
+299 info ok
