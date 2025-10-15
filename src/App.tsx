@@ -6,7 +6,13 @@ import { ConfigPanel } from './modules/config/ConfigPanel'
 import { Builder } from './modules/builder/Builder'
 
 export default function App() {
-  const [isYamlOpen, setYamlOpen] = React.useState(true)
+  const [isYamlOpen, setYamlOpen] = React.useState(false)
+
+  React.useEffect(() => {
+    const handler = () => setYamlOpen(true)
+    window.addEventListener('open-yaml', handler)
+    return () => window.removeEventListener('open-yaml', handler)
+  }, [])
 
   const header = (
     <Masthead>
@@ -44,6 +50,11 @@ export default function App() {
             <Route path="/config" element={<ConfigPanel />} />
           </Routes>
         </PageSection>
+        {!isYamlOpen && (
+          <div style={{ position: 'fixed', right: 16, top: 16, zIndex: 1000 }}>
+            <Button variant="secondary" onClick={() => setYamlOpen(true)}>Show YAML</Button>
+          </div>
+        )}
       </Page>
     </YamlSidebar>
   )

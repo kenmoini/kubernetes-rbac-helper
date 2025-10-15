@@ -1,5 +1,5 @@
 import React from 'react'
-import { PageSection, Stack, StackItem, Text, TextContent, TextVariants, TextInput, HelperText, HelperTextItem, Button } from '@patternfly/react-core'
+import { PageSection, Stack, StackItem, Title, TextInput, HelperText, HelperTextItem, Button } from '@patternfly/react-core'
 import { useAppConfig } from '../../state/config'
 
 export function ConfigPanel() {
@@ -10,12 +10,10 @@ export function ConfigPanel() {
     <PageSection variant="light">
       <Stack hasGutter>
         <StackItem>
-          <TextContent>
-            <Text component={TextVariants.h1}>Configuration</Text>
-            <Text component={TextVariants.p}>
-              For local development, run: <code>kubectl proxy --port=8001</code> and set the API endpoint to <code>http://localhost:8001</code>.
-            </Text>
-          </TextContent>
+          <Title headingLevel="h1">Configuration</Title>
+          <p>
+            For local development, run: <code>kubectl proxy --port=8001</code> and set the API endpoint to <code>http://localhost:8001</code>.
+          </p>
         </StackItem>
         <StackItem>
           <TextInput
