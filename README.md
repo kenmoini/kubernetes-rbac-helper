@@ -1,4 +1,4 @@
-# Kubernetes RBAC Builder
+# Kubernetes RBAC Helper
 
 A local-first web UI to compose Kubernetes/OpenShift RBAC YAML from selected resources, verbs, scope, and subjects. Intended to stay cluster-agnostic and optionally evolve into an OpenShift Console dynamic plugin.
 
@@ -9,7 +9,7 @@ Run the dev server in a disposable Node container, no global installs required:
 
 ```
 podman run --rm -it \
-  -v /Users/lee/git/ocp-rbac-builder:/workspace \
+  -v $(pwd):/workspace \
   -w /workspace \
   -p 5173:5173 \
   docker.io/library/node:20-bookworm bash -lc "npm install && npm run dev -- --host 0.0.0.0"

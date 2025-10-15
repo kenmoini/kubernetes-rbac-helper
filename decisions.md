@@ -12,7 +12,7 @@ This document records key decisions and constraints for the initial build.
 - Namespace scoping: Prefer explicit namespace selection with searchable pick-list to avoid accidental cluster-wide grants
 - Persistence: Ephemeral; do not store preferences or credentials; follow OS theme by default
 - Licensing: TBD (intentionally omitted for now)
-- Project name: ocp-rbac-builder (placeholder, punny name welcome later)
+- Project name: kubernetes-rbac-helper
 
 Future considerations
 - Resource picker backed by CRD discovery (and possibly core resources)
